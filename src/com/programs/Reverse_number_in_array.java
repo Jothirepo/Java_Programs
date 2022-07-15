@@ -20,6 +20,9 @@ public class Reverse_number_in_array {
 		Collections.reverse(asList);
 		
 		System.out.println("REVERSE ARRAY : " + asList);
+		
+		
+	
 	}
 
 }

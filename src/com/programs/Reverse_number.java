@@ -6,7 +6,7 @@ public class Reverse_number {
 
 		java.util.Scanner sc = new java.util.Scanner(System.in);
 
-		System.out.println("input your number & name here");
+		System.out.println("input your name & number respectively");
 		
 		String nextLine = sc.nextLine();
 		int number = sc.nextInt();

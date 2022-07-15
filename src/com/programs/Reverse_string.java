@@ -16,32 +16,52 @@ public class Reverse_string {
 		
 		System.out.println("STRING INPUT WE GAVE : " + nextLine);
 		
-		//Reversed using the input we gave
+		//Reverse using scanner class
+		
 		String rv = new String (nextLine);
 		StringBuilder SC = new StringBuilder();
 		SC.append(rv);
 		SC.reverse();
-		System.out.println("Reversed using the input we gave : " + SC);
+		System.out.println("Reversed using the input from scanner class input : " + SC);
 		
 		System.out.println("************************************************************");
+
 		
+		
+		String rev = "jothi";
 		
 		//1st way_using_reverse function_with_existing input
 		
-		String rev = "jothi";
-				
 		StringBuilder SB = new StringBuilder();
 		
 		SB.append(rev);
-		
 		SB.reverse();
 		
-		System.out.println("using builder reverse with_existing input : " + SB);
-		
+		System.out.println("Reverse a string using string builder : " + SB);
 		System.out.println("************************************************************");
 		
 		
-		//2nd way_own logic
+		
+		
+		//2nd way_using for & charAt loop
+		
+		String ss = "jothiramalingam";
+		
+		String revers ="";
+		
+		for (int i = ss.length()-1; i >=0; i--) {		//since we need to reverse, we are reversing the syntax
+							
+		revers = revers + ss.charAt(i);
+		
+		}
+				
+		System.out.println("Reverse a string using charAt function : " + revers);
+		
+		System.out.println("************************************************************");
+		
+					
+		
+		//3rd way_using charArray
 		
 		String name = "jothrama";
 		
@@ -55,14 +75,17 @@ public class Reverse_string {
 			
 		}
 		
-		System.out.println("using a charArray logic : " + reve);
+		System.out.println("Reverse a string using charArray logic : " + reve);
 		
 		System.out.println("************************************************************");
 		
 		System.out.println("Below is reversed using collections class");
 		
 	
-		//3rd_way_using_collections
+		
+		
+		
+		//4th_way_using_collections
 		
 		String s = "rama";
 		
