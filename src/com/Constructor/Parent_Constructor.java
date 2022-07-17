@@ -1,4 +1,4 @@
-package com.ConstructorChaining;
+package com.Constructor;
 
 public class Parent_Constructor {
 
@@ -6,5 +6,10 @@ public class Parent_Constructor {
 		
 		System.out.println("this is parent constructor");
 		
+	}
+	
+	public void memo() {
+		
+		System.out.println("method from parent class");
 	}
 }
