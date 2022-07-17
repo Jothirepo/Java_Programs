@@ -30,21 +30,5 @@ public class Remove_spl_characters {
 		
 		System.out.println("*************************************************************************************");
 		
-		String b = "jo1 2t hi# ram a$lin ga m";
-		System.out.println("length of the given string b : " + b.length());
-		int lastIndexOf = b.lastIndexOf("a");
-		System.out.println("lastindex of a : " + lastIndexOf);
-		System.out.println("*************************************************************************************");
-	
-		String[] split = b.split(" ");
-		for (String string : split) {
-			
-			System.out.println(string);
-			
-		}
-		System.out.println("*************************************************************************************");
-		System.out.println("Length after splitting : " + split.length);
-		
-		
 	}	
 }

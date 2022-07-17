@@ -46,7 +46,6 @@ public class Reverse_string {
 		//2nd way_using for & charAt loop
 		
 		String ss = "jothiramalingam";
-		
 		String revers ="";
 		
 		for (int i = ss.length()-1; i >=0; i--) {		//since we need to reverse, we are reversing the syntax
