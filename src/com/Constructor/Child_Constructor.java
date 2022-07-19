@@ -27,7 +27,7 @@ public class Child_Constructor extends Parent_Constructor {
 	public static void main(String[] args) {
 		
 		
-		new Child_Constructor().memo();
+		new Child_Constructor();
 		new Child_Constructor().childone();
 		new Child_Constructor().childtwo();
 	}

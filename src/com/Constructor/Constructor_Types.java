@@ -22,7 +22,7 @@ public class Constructor_Types {
 		Constructor_Types t = new Constructor_Types (12, "jo");
 		
 		System.out.println("both constructors can be invoked if we create separate objects");
-	
+							//both constructors can be invoked at the same time if we use this keyword
 	
 		System.gc();
 	}
