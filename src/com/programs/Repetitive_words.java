@@ -4,7 +4,7 @@ public class Repetitive_words {
 
 	public static void main(String[] args) {
 		
-		String s = "api testing jothi testing functional testing jothi testing jothi performance testing jothi automation testing api testing jothi";
+		String s = "rama joth rama jothi";
 		
 		String[] allwords = s.split(" ");
 		
@@ -15,10 +15,12 @@ public class Repetitive_words {
 			if (allwords[i]==repetitiveword); {
 				
 				repetitiveword = allwords[i];
+				
 			}
+			
 		}
-		
 		System.out.println("Most repetitive word : " + repetitiveword);
+		
 	}
 
 }

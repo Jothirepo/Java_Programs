@@ -1,5 +1,7 @@
 package com.programs;
 
+import net.bytebuddy.dynamic.scaffold.MethodRegistry.Handler.ForAbstractMethod;
+
 public class Max_min_value_array {
 
 	public static void main(String[] args) {
@@ -44,8 +46,11 @@ public class Max_min_value_array {
 	
 	
 		System.out.println("mini value of an array : " + mini);
+		
 	
 	}
+	
+	
 	
 	
 		

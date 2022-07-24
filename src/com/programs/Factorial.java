@@ -2,16 +2,16 @@ package com.programs;
 
 public class Factorial {
 
-	public static int value = 1;
+	public static int factorial = 1;
 
 	public static void main(String[] args) {
 
-		for (int i = 5; i >= 1; i--) {
+		for (int i = 10; i >= 1; i--) {
 			
-			value = value * i;
+			factorial = factorial * i;
 		}
 		
-		System.out.println("Factorial of 5 is : " + value);
+		System.out.println("Factorial of 5 is : " + factorial);
 	}
 
 }

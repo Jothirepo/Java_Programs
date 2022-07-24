@@ -2,7 +2,7 @@ package com.programs;
 
 public class Multiply_Inside_Array {
 
-	public static int sum =1;
+	public static int multi =1;
 	
 	public static void main(String[] args) {
 		
@@ -12,17 +12,14 @@ public class Multiply_Inside_Array {
 
 				for (int i : a) {
 
-					if (i == 6) {
+					if (i <= 6) {
 
-						break;
+						multi = multi * i;
 
-					} else {
-
-						sum = sum * i;
-					}
+					} 
 				}
 
-				System.out.println("Multiplication of values inside an array : " + sum);
+				System.out.println("Multiplication of values inside an array : " + multi);
 
 				
 				

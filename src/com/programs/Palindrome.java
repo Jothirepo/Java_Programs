@@ -10,33 +10,24 @@ public class Palindrome {
 
 	public static void main(String[] args) {
 		
+
 		
-		//palindrome on string
-		String a = "jothi";
+		//reverse a string & it's palindrome
+		String b = "malayalam";
 		
-		System.out.println("Actual string : " + a);
+		String pali = "";
 		
-		String rv = "";
-		
-		for (int i = a.length() - 1; i >=0; i--) {
-			
-			rv = rv + a.charAt(i);			
-			
+		for (int i = b.length()-1; i >=0 ; i--) {
+
+			char charAt = b.charAt(i);			
+			pali = pali + charAt;
 		}
 		
-		System.out.println("reverse of sting a : " + rv);
+		System.out.println("reverse of a string : " + pali);
 		
-		boolean equalornot = rv.equalsIgnoreCase(a);
+		boolean equalsIgnoreCase = pali.equalsIgnoreCase(b);
 		
-		System.out.println("whether string a and it's reverse alindrome : " + equalornot);
-		
-		
-		
-		//palindrome on numbers
-		int in = 12131;
-		
-		
-		
+		System.out.println("whether string and it's reverse are palindrome too : " + equalsIgnoreCase);
 		
 	}
 

@@ -6,10 +6,9 @@ public class Find_Odd_Or_Even {
 
 	public static void main(String[] args) {
 		
-		
 		Scanner sc = new Scanner(System.in);
 		
-		int ip = sc.nextInt();  //to take input from user/console 
+		int ip = sc.nextInt();  //to take number (int) input from user/console 
 		
 		System.out.println("Input number : " + ip);
 		
