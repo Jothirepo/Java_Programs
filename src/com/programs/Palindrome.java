@@ -13,7 +13,7 @@ public class Palindrome {
 
 		
 		//reverse a string & it's palindrome
-		String b = "malayalam";
+		String b = "tamilnadu";
 		
 		String pali = "";
 		
@@ -23,7 +23,7 @@ public class Palindrome {
 			pali = pali + charAt;
 		}
 		
-		System.out.println("reverse of a string : " + pali);
+		System.out.println("reverse of given string : " + pali);
 		
 		boolean equalsIgnoreCase = pali.equalsIgnoreCase(b);
 		
