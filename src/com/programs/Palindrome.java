@@ -14,7 +14,7 @@ public class Palindrome {
 		
 		//reverse a string & it's palindrome
 		String b = "tamilnadu";
-		
+		System.out.println("given string is : " + b);
 		String pali = "";
 		
 		for (int i = b.length()-1; i >=0 ; i--) {
