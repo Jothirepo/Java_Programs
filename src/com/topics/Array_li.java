@@ -24,7 +24,6 @@ public class Array_li {
 		System.out.println("ArrayList's element at index 4 has been replaced : " + li);
 		
 		
-		
 	}
 
 }
